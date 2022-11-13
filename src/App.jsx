@@ -4,6 +4,7 @@ import Card from './components/Card/Card';
 
 function App() {
   const [city, setCity] = useState('');
+  const [data, setData] = useState({});
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -29,7 +30,7 @@ function App() {
           Pesquisar
         </button>
       </form>
-      <Card />
+      <Card data={data} />
     </div>
   );
 }
