@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import fetchData from './service/api';
 import Card from './components/Card/Card';
 
 function App() {
+  const [city, setCity] = useState('');
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetchData('recife').then((response) => {
+    fetchData(city).then((response) => {
       console.log(response);
     });
   };
@@ -17,6 +19,8 @@ function App() {
           type="text"
           placeholder="Cidade"
           className="p-3 rounded-lg outline-none"
+          value={city}
+          onChange={({ target: { value } }) => setCity(value)}
         />
         <button
           type="submit"
