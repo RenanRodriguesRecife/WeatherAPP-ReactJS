@@ -8,3 +8,5 @@ App simples de clima usando React JS, React Hook, Tailwind CSS e consumindo uma 
 
 
 https://www.youtube.com/watch?v=O6fYg3-Kgx0
+
+1:19:11
