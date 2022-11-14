@@ -8,7 +8,7 @@ const initialData = {
     temp_c: 0,
     condition: {
       text: '-',
-      icon: '//cdn.meatherapi.com/meather/64x64/night/354.png',
+      icon: '//cdn.weatherapi.com/weather/64x64/day/116.png',
     },
   },
 };
