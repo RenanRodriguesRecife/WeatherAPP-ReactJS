@@ -8,6 +8,7 @@ App simples de clima usando React JS, React Hook, Tailwind CSS e consumindo uma 
 
 Weather API - https://www.weatherapi.com/
 
+<img src="api.JPG">
 
 https://www.youtube.com/watch?v=O6fYg3-Kgx0
 
